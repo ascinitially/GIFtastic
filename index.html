@@ -10,25 +10,27 @@
     <script src="assets/arrayObject.js"></script>
     <script src="assets/app.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
   </head>
   <body>
 
 
+    <div class="butRow">
+      <div class="buttons">
+    </div> 
 
-    <div class="buttons">
-        
     </div>
     <form id="animal-form">
 
         <!-- Label for Text Box -->
-        <label for="animal-input">Choose Your Animal</label>
+        <label for="animal-input" id="input">Your Animal:</label>
 
         <!-- Text Input Box -->
         <input type="text" id="animal-input"><br>
 
         <!-- Submit Button -->
-        <input id="select-animal" type="submit" value="GO!">
-        <button id="remove">Delete</button>
+        <input id="select-animal" type="submit" value="Submit">
+        <button id="remove">Clear</button>
     </form>
 
     <div class="gifs"></div>
